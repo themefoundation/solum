@@ -1,0 +1,24 @@
+/* Stylesheet for the post editor. */
+
+img,
+.wp-caption {
+	max-width: 100%;
+	height: auto;
+}
+
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	margin: 0 auto;
+}
