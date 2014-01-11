@@ -7,7 +7,7 @@
  */
 ?>
 
-<?php if ( is_active_sidebar( 'sidebar-a' ) ) { ?>
+<?php if ( is_active_sidebar( 'sidebar-1' ) ) { ?>
 
 	<?php tha_sidebars_before(); ?>
 	<div id="secondary" class="sidebar" role="complementary">
@@ -21,7 +21,7 @@
 
 <?php } ?>
 
-<?php if ( is_active_sidebar( 'sidebar-b' ) ) { ?>
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) { ?>
 
 	<?php tha_sidebars_before(); ?>
 	<div id="tertiary" class="sidebar" role="complementary">
