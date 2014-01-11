@@ -7,13 +7,16 @@
  */
 ?>
 
+		</div><!--.wrap-->
 	</div><!--#main-->
 
 	<?php tha_footer_before(); ?>
 		<div id="footer" class="site-footer">
-			<?php tha_footer_top(); ?>
+			<div class="wrap">
+				<?php tha_footer_top(); ?>
 
-			<?php tha_footer_bottom(); ?>
+				<?php tha_footer_bottom(); ?>
+			</div><!--.wrap-->
 		</div><!--#footer-->
 	<?php tha_footer_after(); ?>
 	<?php wp_footer(); ?>
