@@ -20,21 +20,22 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<?php tha_header_before(); ?>
+	<div id="page">
+		<?php tha_header_before(); ?>
 
-	<div id="header" class="site-header">
-		<div class="wrap">
-			<?php tha_header_top(); ?>
+		<div id="header" class="site-header">
+			<div class="wrap">
+				<?php tha_header_top(); ?>
 
-			<div id="branding" role="banner">
-				<?php echo apply_filters( 'site_name', '<p class="site-title"><a href="' . esc_url( home_url( '/' ) ) . '">' . get_bloginfo('name') . '</a></p>' ); ?>
-				<?php echo apply_filters( 'site_description', '<p class="site-description">' . get_bloginfo( 'description' ) . '</p>' ); ?>
-			</div><!--#branding-->
+				<div id="branding" role="banner">
+					<?php echo apply_filters( 'site_name', '<p class="site-title"><a href="' . esc_url( home_url( '/' ) ) . '">' . get_bloginfo('name') . '</a></p>' ); ?>
+					<?php echo apply_filters( 'site_description', '<p class="site-description">' . get_bloginfo( 'description' ) . '</p>' ); ?>
+				</div><!--#branding-->
 
-			<?php tha_header_bottom(); ?>
-		</div><!--.wrap-->
-	</div><!--#header-->
-	<?php tha_header_after(); ?>
+				<?php tha_header_bottom(); ?>
+			</div><!--.wrap-->
+		</div><!--#header-->
+		<?php tha_header_after(); ?>
 
-	<div id="main">
-		<div class="wrap">
+		<div id="main">
+			<div class="wrap">
