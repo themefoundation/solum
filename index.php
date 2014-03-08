@@ -12,7 +12,7 @@
 <div id="primary">
 	<?php tha_content_before(); ?>
 
-	<div id="content" role="main">
+	<div id="content" class="hfeed" role="main">
 		<?php tha_content_top(); ?>
 
 		<?php if ( have_posts() ) : ?>
