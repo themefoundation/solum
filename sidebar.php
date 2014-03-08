@@ -2,7 +2,7 @@
 /**
  *  Sidebar template
  *
- * @package Draft
+ * @package Solum
  * @since 1.0
  */
 ?>

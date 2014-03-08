@@ -2,7 +2,7 @@
 /**
  *  Single page template
  *
- * @package Draft
+ * @package Solum
  * @since 1.0
  */
 ?>

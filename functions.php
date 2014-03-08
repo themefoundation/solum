@@ -5,7 +5,7 @@
  * This file contains functions to extend the functionality of the
  * Solum theme
  *
- * @package Draft
+ * @package Solum
  * @version 1.0
  */
 

@@ -2,7 +2,7 @@
 /**
  *  Index template
  *
- * @package Draft
+ * @package Solum
  * @since 1.0
  */
 ?>
@@ -12,7 +12,7 @@
 <div id="primary">
 	<?php tha_content_before(); ?>
 
-	<div id="content" class="hfeed" role="main">
+	<div id="content" role="main">
 		<?php tha_content_top(); ?>
 
 		<?php if ( have_posts() ) : ?>
